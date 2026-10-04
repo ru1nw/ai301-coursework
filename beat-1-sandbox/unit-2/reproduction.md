@@ -98,8 +98,9 @@ only one run occurred. **The last score in your list must match the agreement li
 scored). Name it by id, say what your rubric decided and what the gold label said, and
 explain why your rubric read it that way.]
 
-The rubric was failing `pkg-03` because it leaned too hard on AI-disclosure statement, so it failed
-the repo that did not ask for AI disclosure even if the policy only mandates human-written comments.
+The rubric was rejecting `pkg-03` when it should be accepted because the rubric leaned too
+hard on AI-disclosure statement, so it failed the repo that did not ask for AI disclosure
+even if the policy only mandates human-written comments.
 
 **Check rationale**
 
